@@ -1,0 +1,5 @@
+{
+  "users": {
+    "already_exists": "user with this username already exists"
+  }
+}

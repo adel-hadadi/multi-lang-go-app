@@ -1,0 +1,15 @@
+{
+  "validations": {
+    "required": "%s is a required field.",
+    "lte": "%s should be lower than %v",
+    "gte": "%s should be greater than %v",
+    "oneof": "%s should be one of the %v"
+  },
+  "fields": {
+    "Name": "name",
+    "Username": "username",
+    "Password": "password",
+    "Age": "age",
+    "Gender": "gender"
+  }
+}
