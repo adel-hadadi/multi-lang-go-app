@@ -8,8 +8,15 @@ Firstly should make a copy from `.env.example` and named it to `.env`. In env fi
  for example in this project we have `fa` and `en`.
 
 Then we have a Makefile that contain a run command so if you have installed it in your system
-you can run `make run api` in root directory but if you are not installed it before can run go command
-`go run cmd/api/main.go`.
+you can run bellow command in project root directory 
+```shell
+make run api
+```
+
+but if you don`t want to use Makefile, just use simple go run command
+```shell
+go run cmd/api/main.go
+```
 
 ## Endpoints
 ![signup request](./img/signup-request.png)
