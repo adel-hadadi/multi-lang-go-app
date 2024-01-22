@@ -7,11 +7,6 @@ import (
 )
 
 func initRoutes(router *gin.Engine, handlerContainer *handlers.Handlers) {
-	goals := router.Group("/goals")
-	{
-		routes.InitGoalRoutes(goals)
-	}
-
 	auth := router.Group("/auth")
 	{
 		routes.NewAuthRoutes(auth, *handlerContainer.AuthHandler)
