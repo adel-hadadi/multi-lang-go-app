@@ -8,7 +8,7 @@ Firstly should make a copy from `.env.example` and named it to `.env`. In env fi
  for example in this project we have `fa` and `en`.
 
 Then we have a Makefile that contain a run command so if you have installed it in your system
-you can run `make run` in root directory but if you are not installed it before can run go command
+you can run `make run api` in root directory but if you are not installed it before can run go command
 `go run cmd/api/main.go`.
 
 ## Endpoints
